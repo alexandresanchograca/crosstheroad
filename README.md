@@ -14,4 +14,4 @@ To start the server: java -jar GameServer.jar <serverPort>
 Dependencies:
 Simple Graphics Library: https://github.com/academia-de-codigo/simple-graphics
 
-<img src="gamescreen.png" width=300 height=300></img>
+<img src="gamescreen.png" width=450 height=253></img>
