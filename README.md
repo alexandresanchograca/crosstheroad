@@ -9,7 +9,7 @@ To start the client you should use: java -jar Game.jar &lt;username&gt; &lt;serv
 GameServer only contains the Game logic. The communication is made by User Datagram Protocol (UDP) using Java DatagramSocket, the data uses a very simple serialization method to be transfered arround using only commas and semicolons. The game server will wait until 2 players join to start running the game logic.
 The cars positions and the opponent position is streamed to the clients.
 
-To start the server: java -jar GameServer.jar <serverPort>
+To start the server: java -jar GameServer.jar &lt;serverPort&gt;
 
 Dependencies:
 Simple Graphics Library: https://github.com/academia-de-codigo/simple-graphics
